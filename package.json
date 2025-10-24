@@ -1,0 +1,38 @@
+{
+  "name": "qa-playground",
+  "version": "1.0.0",
+  "description": "A QA workspace for learning QA testing with Node.js",
+  "main": "src/api/index.js",
+  "scripts": {
+    "start": "node src/api/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:unit": "jest tests/unit",
+    "test:api": "jest tests/api",
+    "lint": "eslint src tests",
+    "lint:fix": "eslint src tests --fix"
+  },
+  "keywords": [
+    "qa",
+    "testing",
+    "jest",
+    "mocha",
+    "api-testing",
+    "learning"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "chai": "^6.2.0",
+    "eslint": "^9.38.0",
+    "globals": "^16.4.0",
+    "jest": "^30.2.0",
+    "mocha": "^11.7.4",
+    "supertest": "^7.1.4"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
