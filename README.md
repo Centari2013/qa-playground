@@ -59,7 +59,7 @@ qa-playground/
 │   │   └── userApi.test.js
 │   └── integration/     # Integration tests (for future examples)
 ├── jest.config.js       # Jest configuration
-├── .eslintrc.json       # ESLint configuration
+├── eslint.config.js     # ESLint configuration
 └── package.json         # Project dependencies and scripts
 ```
 
